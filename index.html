@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f2a32344c3.js" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Edu+SA+Beginner:wght@700&family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@700&family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>CLINICA ORAL MED</title>
+</head>
+<body>
+    <main id="nav-medias">
+        <div class="container">    
+            <ul class="nav justify-content-end p-1">
+                <li class="nav-item">
+                    <a class="nav-link" href="tel:+244936838389" target="_blank">
+                        <i class="bi bi-telephone"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="https://wa.me/244936838389" target="_blank">
+                        <i class="bi bi-whatsapp"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" target="_blank" >
+                        <i class="bi bi-linkedin"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" target="_blank">
+                        <i class="bi bi-facebook"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.instagram.com/oralmed_luanda/">
+                        <i class="bi bi-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <header class="navbar navbar-expand-lg sticky-top p-3" id="cabecalho">
+        <div class="container">
+            <a href="#sobre-nos">
+                <h1 class="navbar-brand">
+                    <img src="./img/Logotipo/logo oral med.png" alt="logo Oral Med">
+                </h1>
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item dropdown fw-bold">
+                        <a class="nav-link dropdown-toggle" href="#sobre-nos"role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            SOBRE NÓS
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item fw-bold" href="#diferencial">DIFERENCIAL</a></li>
+                            <li><a class="dropdown-item fw-bold" href="#casos-clinicos">CASOS CLINICOS DE SUCESSO</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#nossos-servicos" class="nav-link">
+                            NOSSOS SERVIÇOS</a>
+                    </li>
+                    <li  class="nav-item fw-bold">
+                        <a href="#nosso-team" class="nav-link">
+                            NOSSO TEAM</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link me-4">
+                            CONTATO</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="https://api.whatsapp.com/send?phone=244936838389" class="nav-link" target="_blank">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            MARCAÇÃO
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-nos">
+            <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="4000">
+                        <img src="img/slides/doutor.jpg" alt="foto do doutor" class="d-block w-100">
+                        <div class="carousel-caption d-none d-sm-block ">
+                            <h1 class="fw-bolder tex-capitalize">ORAL MED</h1>
+                            <p class="caption-text  mb-1">
+                                A Clínica Oral Med é um consultório odontológico dedicado a fornecer cuidados dentários abrangentes 
+                                e de qualidade para os pacientes. 
+                            </p>
+                            <button type="button" class="btn btn-outline btn-sm">Saiba mais..</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img src="img/slides/doutora.jpg" alt="foto da doutora" class="d-block w-100">
+                        <div class="carousel-caption d-none d-sm-block text-start">
+                            <h1 class="fw-bolder tex-capitalize">ORAL MED</h1>
+                            <p class="caption-text  mb-1">
+                                Temos doutores e especialistas altamente treinados e qualificados 
+                                em diversas áreas da odontologia.
+                            </p>
+                            <button type="button" class="btn btn-outline btn-sm">Saiba mais..</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img src="img/slides/medica.jpg" alt="foto da medica" class="d-block w-100">
+                        <div class="carousel-caption d-none d-sm-block text-start">
+                            <h1 class="fw-bolder tex-capitalize">ORAL MED</h1>
+                            <p class="caption-text mb-1">
+                                Utilizamos equipamentos modernos e tecnologia avançada para aprimorar a precisão e eficiência de 
+                                diagnósticos e procedimentos
+                            </p>
+                            <button type="button" class="btn btn-outline btn-sm">Saiba mais..</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+            </div>
+        </section>
+        <section id="nossos-servicos">
+            <div class="container p-5">
+                <div class="row g-3">
+                    <i class="fa-solid fa-tooth text-center"></i>
+                    <h3 class="section-title text-center fw-bold">Nossos Tratamentos</h3>
+                    <p class="section-text text-center">A nossa Clinica oferece uma variedade de serviços médicos 
+                        para atender às necessidades dos pacientes.
+                    </p>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card rounded "> 
+                            <div class="card-body rounded">
+                                <img src="./img/serviços/atetomia.jpg" class="d-block mb-2 mx-auto custom-image rounded-circle" alt="tratamentos aletomia" />
+                                <h4 class="card-title text-center p-2 fw-bold fs-5">Tratamento de Alectomia</h4>
+                                <p class="card-text text-center">
+                                    A alectomia é considerada um refinamento da rinoplastia - é a cirurgia das asas nasais. 
+                                </p>
+                                <a href="#" class="btn btn-outline-primary d-block mx-auto">Ler Mais..</a>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card rounded ">
+                            <div class="card-body rounded">
+                                <img src="./img/serviços/atetomia.jpg" class="d-block mb-2 mx-auto custom-image rounded-circle" alt="tratamentos aletomia" />
+                                <h4 class="card-title text-center p-2 fw-bold fs-5">Bichetomia</h4>
+                                <p class="card-text text-center">
+                                    A alectomia é considerada um refinamento da rinoplastia - é a cirurgia das asas nasais. 
+                                </p>
+                                <a href="#" class="btn btn-outline-primary d-block mx-auto">Ler Mais</a>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card rounded ">
+                            <div class="card-body rounded">
+                                <img src="./img/serviços/atetomia.jpg" class="d-block mb-2 mx-auto custom-image rounded-circle" alt="tratamentos aletomia" />
+                                <h4 class="card-title text-center p-2 fw-bold fs-5">Blefaroplastia</h4>
+                                <p class="card-text text-center">
+                                    A alectomia é considerada um refinamento da rinoplastia - é a cirurgia das asas nasais. 
+                                </p>
+                                <a href="#" class="btn btn-outline-primary d-block mx-auto">Ler Mais</a>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card rounded ">
+                            <div class="card-body rounded">
+                                <img src="./img/serviços/atetomia.jpg" class="d-block mb-2 mx-auto custom-image rounded-circle" alt="tratamentos aletomia" />
+                                <h4 class="card-title text-center p-2 fw-bold fs-5">Enxertos Ósseos</h4>
+                                <p class="card-text text-center">
+                                    A alectomia é considerada um refinamento da rinoplastia - é a cirurgia das asas nasais. 
+                                </p>
+                                <a href="#" class="btn btn-outline-primary d-block mx-auto">Ler Mais</a>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card rounded "> 
+                            <div class="card-body rounded">
+                                <img src="./img/serviços/atetomia.jpg" class="d-block mb-2 mx-auto custom-image rounded-circle" alt="tratamentos aletomia" />
+                                <h4 class="card-title text-center p-2 fw-bold fs-5">Biópsias de Lesões Orais</h4>
+                                <p class="card-text text-center">
+                                    A alectomia é considerada um refinamento da rinoplastia - é a cirurgia das asas nasais. 
+                                </p>
+                                <a href="#" class="btn btn-outline-primary d-block mx-auto">Ler Mais</a>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card rounded">
+                            <div class="card-body rounded">
+                                <img src="./img/serviços/atetomia.jpg" class="d-block mb-2 mx-auto custom-image rounded-circle " alt="tratamentos aletomia" />
+                                <h4 class="card-title text-center p-2 fw-bold fs-5">Paciente com lábio e fenda do palato</h4>
+                                <p class="card-text text-center">
+                                    A alectomia é considerada um refinamento da rinoplastia - é a cirurgia das asas nasais. 
+                                </p>
+                                <a href="#" class="btn btn-outline-primary d-block mx-auto">Ler Mais</a>
+                            </div>
+                        </div>
+                    </div>                           
+                </div>
+            </div>
+                
+        </section>
+        <section class="publididade-mas">
+            <div class="container p-4">
+                <div class="row text-center p-4">
+                    <div class="col-md-4">
+                        <i class="fa-solid fa-user-doctor fs-1 mb-1"></i>
+                        <p class="card-text text-center">
+                            Atendimento personalizado aos pacientes, com uma equipe de profissionais bem treinados e experientes.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="fa-solid fa-heart fs-1 mb-1"></i>
+                        <p class="card-text text-center">
+                            Uso de tecnologia de ponta, como equipamento de radiografia digital e impressoras 3D para planejamento e confecção de próteses dentárias.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="fa-solid fa-star-of-life fs-1 mb-1"></i>
+                            <p class="card-text text-center">
+                                Uso de diversas especialidades para atender as diferentes necessidades dos pacientes em um só lugar.
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="diferencial">
+            <div class="container p-4">
+                <div class="row">
+                    <div class="col-md-6 p-4">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <video class="embed-responsive-item w-100" src="./publicidade.mp4" autoplay loop muted></video>
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-4">
+                        <h2 class="section-title fs-4 fw-bold">DIFERENCIAL DA CLÍNICA.</h2>
+                        <p class="section-text mt-md-0">
+                            A Clínica Oral Med oferece serviços odontológicos de alta qualidade, abrangendo diversas especialidades, 
+                            para transformar vidas através de sorrisos saudáveis.
+                            Nosso diferencial é claro e significativo:
+                            <ul class="list-unstyled fw-bold">
+                                <li><i class="bi bi-check-circle-fill me-2" ></i>Excelência em Cirurgia Maxilo Facial:</li>
+                                <li><i class="bi bi-check-circle-fill me-2" ></i>Prótese Dentária Personalizada</li>
+                                <li><i class="bi bi-check-circle-fill me-2" ></i>Diagnóstico Preciso em Patologia Oral</li>
+                                <li><i class="bi bi-check-circle-fill me-2"></i>Ortognática implantes</li>
+                                <li><i class="bi bi-check-circle-fill me-2"></i>Cuidado Especializado em Periodontia:</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="nosso-team">
+            <div class="container">
+                <div class="row g-3">
+                    <img src="./img/Logotipo/simbolo-logo-.png" class="d-block mx-auto img-2 " alt="simbolo da logotipo" />
+                    <h3 class="section-title text-center fw-bold">Conheça Nosso Team</h3>
+                    <p class="section-text text-center">Temos atendimento personalizado aos pacientes, 
+                        com uma equipe de profissionais bem treinados e experientes.
+                    </p>
+                    <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img src="./img/card-team/cirurgia.JPG" class="img1 w-100" alt="Imagem da equipe medica fazendo cirurgia" />
+                                <img src="./img/equipe/Agnelo-Lucamba.jpg" class="img2 mx-auto d-block rounded-circle position-relative" alt="imagem do doutor Agnelo especilista cirurgião" />
+                                <div class="main-text py-4 text-center">
+                                    <h2 class="fs-5 fw-bold">DR. AGNELO LUCAMBA</h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Tempora porro iste in aliquid deleniti
+                                    </p>
+                                </div>
+                                <div class="socials text-center">
+                                    <a href="link_do_seu_instagram" target="_blank" class="text-decoration-none me-3">
+                                        <i class="fab fa-instagram fs-2"></i>
+                                    </a>
+                                    <a href="link_do_seu_facebook" target="_blank" class="text-decoration-none me-3">
+                                        <i class="fab fa-facebook fs-2"></i>
+                                    </a>
+                                    <a href="link_do_seu_facebook" target="_blank" class="text-decoration-none">
+                                        <i class="fab fa-linkedin fs-2"></i>
+                                    </a>
+                                </div>
+                            </div>
+                    </div> 
+                    <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card">
+                                <img src="./img/card-team/avaliação.jpg" class="img1 w-100" alt="imagem da equipe medica fazendo consulta" />
+                                <img src="./img/equipe/Ivone Lucamba.jpg" class="img2 mx-auto d-block rounded-circle position-relative" alt="imagem da directoria da clinica" />
+                                <div class="main-text py-4 text-center">
+                                    <h2 class="fs-5 fw-bold">DR. IVONE LUCAMBA</h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Tempora porro iste in aliquid deleniti.
+                                    </p>
+                                </div>
+                                <div class="socials text-center">
+                                    <a href="link_do_seu_instagram" target="_blank" class="text-decoration-none me-3">
+                                        <i class="fab fa-instagram fs-2"></i>
+                                    </a>
+                                    <a href="link_do_seu_facebook" target="_blank" class="text-decoration-none me-3">
+                                        <i class="fab fa-facebook fs-2"></i>
+                                    </a>
+                                    <a href="link_do_seu_facebook" target="_blank" class="text-decoration-none">
+                                        <i class="fab fa-linkedin fs-2"></i>
+                                    </a>
+                                </div>
+                            <!--<a href="#" class="btn btn-outline d-block mx-auto">Saiba Mais</a>--> 
+                            </div>
+                    </div> 
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="./img/card-team/implante dentario.jpg" class="img1 w-100" alt="imagem ilustrativa de um implante dentario" />
+                            <img src="./img/equipe/Claudia-Saveia.jpg" class="img2 mx-auto d-block rounded-circle position-relative" alt="douto Claudeia Saveia" />
+                            <div class="main-text py-4 text-center">
+                                <h2 class="fs-5 fw-bold">DR. CLAUDIA SAVEIA</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Tempora porro iste in aliquid deleniti.
+                                </p>
+                            </div>
+                            <div class="socials text-center">
+                                <a href="link_do_seu_instagram" target="_blank" class="text-decoration-none me-3">
+                                    <i class="fab fa-instagram fs-2"></i>
+                                </a>
+                                <a href="link_do_seu_facebook" target="_blank" class="text-decoration-none me-3">
+                                    <i class="fab fa-facebook fs-2"></i>
+                                </a>
+                                <a href="link_do_seu_facebook" target="_blank" class="text-decoration-none">
+                                    <i class="fab fa-linkedin fs-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="casos-clinicos" class="pt-5 pb-5" >
+            <div class="container">
+                <div class="row g-3">
+                    <h3 class="section-title text-center fw-bold">
+                        Casos Clínicos de Sucesso.
+                    </h3>
+                    <p class="section-text text-center mb-4 p-3" >
+                        Nossa missão é transformar vidas, com dedicação e paixão, buscamos inspirar mudanças positivas.
+                    </p>
+                        <div class="col-12 col-md-6 col-lg-6">
+                            <div class="card rounded">
+                                <div id="carousel-6" class="carousel slide" data-bs-ride="carousel-6">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-bs-interval="4000">
+                                            <img src="img/antes e depos/casos clinicos/1/antes.jpg" alt="imagem de caso cirurgico antes" class="d-block w-100">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="4000">
+                                            <img src="img/antes e depos/casos clinicos/1/depois.jpg" alt="iamgem de umcaso cirurgico depois" class="d-block w-100">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carousel-6" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carousel-6" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6">
+                            <div class="card rounded">
+                                <div id="carousel-7" class="carousel slide" data-bs-ride="carousel-7">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-bs-interval="4000">
+                                            <img src="img/antes e depos/casos clinicos/2/antes.jpg" alt="foto do doutor" class="d-block w-100">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="4000">
+                                            <img src="img/antes e depos/casos clinicos/2/depois.jpg" alt="foto da doutora" class="d-block w-100">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carousel-7" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carousel-7" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <section id="mapa">
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d541.1847035108154!2d13.21647424294534!3d-8.918039306790362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a51f5a7126b6313%3A0x8b3b3d0ba2236a1!2sRotunda%20da%20Fubu%2C%20Luanda%2C%20Angola!5e0!3m2!1spt-PT!2sbr!4v1685167728887!5m2!1spt-PT!2sbr" width="100%" height="400px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <section id="contato" class="pt-5 pb-5 p-3">
+            <div class="container">
+                <div class="row g-3">
+                    <h3 class="section-title text-center fw-bold mb-5">FALE CONOSCO</h3>
+                    <div class="col-md-6 form-call rounded p-5 ">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="nome" class="form-label fw-bold text-colored fs-4">Nome</label>
+                                    <input type="text" id="nome" class="form-control" placeholder="Seu nome" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label fw-bold text-colored fs-4">Email</label>
+                                    <input type="email" id="email"  class="form-control" placeholder="Email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="telefone" class="form-label fw-bold text-colored fs-4">Telefone (opcional)</label>
+                                    <input type="tel" id="telefone" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="mensagem" class="form-label fw-bold text-colored fs-4">Mensagem</label>
+                                    <textarea class="form-control no-resize" placeholder="Sua mensagem" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-outline px-4 fw-bold">Enviar Mensagem</button>
+                            </form>
+                    </div>
+                    <div class="col-md-4 ms-4">
+                        <div class="row mt-3">
+                            <h4 class="fw-bold fs-4 text-colored">Localização</h4>
+                            <p class="fw-bold ">
+                                <i class="bi bi-geo-alt text-colored"></i>
+                                Avenida Luther Rescova, Camama <br>
+                                Bairro da Fubú 15 de Fevereiro III<br>
+                                Rua 2 casa nº 3 A RC.
+                            </p>
+                        </div>
+                        <div class="row mt-3">
+                            <h3 class="fw-bold fs-4 text-colored fs-5">Email</h3>
+                            <p class="fw-bold ">
+                                <a href="mailto:Oralmed_saude@hotmail.com">
+                                    <i class="bi bi-envelope text-colored"></i>
+                                </a>
+                                Oralmed_saude@hotmail.com
+                            </p>
+                        </div>
+                        <div class="row mt-3 text-colored">
+                            <h3 class="fw-bold fs-4">Telefone</h3>
+                            <p class="fw-bold ">
+                                <a href="tel:+244936838389">
+                                    <i class="bi bi-telephone text-colored"></i>
+                                </a>
+                                +244 936838389
+                            </p>
+                        </div>
+                        <div class="row mt-3">
+                            <h3 class="fw-bold fs-4 text-colored">Horário De Atendimento</h3>
+                            <p class="fw-bold ">
+                                De Segunda à sabado 8h as 16h 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer p-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <h4 class="section-title fs-4">ORAL MED</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam nam asperiores minima
+                            eos voluptatibus deserunt sed vitae illo nostrum eaque?
+                            Exercitationem, nihil. Est voluptate molestias ea. Dolorum laborum culpa necessitatibus.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <h4 class="section-title fs-4">NOSSO SITE</h4>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a href="#About-us" class="nav-link">
+                                    <i class="bi bi-check-circle-fill me-2"></i>
+                                    Sobre Nós
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#serviços-team" class="nav-link">
+                                    <i class="bi bi-check-circle-fill me-2"></i>
+                                    Diferencial
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#Nossos-Serviços" class="nav-link">
+                                    <i class="bi bi-check-circle-fill me-2"></i>
+                                    Nossos Serviços
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contacto" class="nav-link">
+                                    <i class="bi bi-check-circle-fill me-2"></i>
+                                    Nosso Team
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#casos-clinicos" class="nav-link">
+                                    <i class="bi bi-check-circle-fill me-2"></i>
+                                    Contacto
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <h4 class="section-title fs-4">NOSSAS REDES SOCIAIS</h4>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="https://wa.me/244936838389">
+                                    <i class="bi bi-whatsapp me-2"></i>
+                                    Whatsapp
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="bi bi-linkedin me-2"></i>
+                                    Linkedin
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="bi bi-facebook me-2"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.instagram.com/oralmed_luanda/">
+                                    <i class="bi bi-instagram me-2"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="footer-copyright text-center p-4">
+            <p>© 2023 - Todos os direitos reservados - Design por Jones Márcio</p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

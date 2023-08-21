@@ -1,0 +1,353 @@
+
+body {
+    font-family: Roboto, sans-serif;
+    overflow: auto;
+}
+
+/**Médias Sociais**/
+
+
+#nav-medias {
+    background-color: #0c5c51;  
+}
+/* Estilos padrão para os ícones de mídia social */
+#nav-medias .nav-link i {
+    font-size: 15px; 
+    color: #fff; 
+    transition: color 0.3s ease; 
+}
+
+/* Estilos para o hover nos ícones de mídia social */
+#nav-medias .nav-link:hover i {
+    color:#65DAF9;
+}
+
+/** MENU **/
+.container img{
+    width: 200px;  /*dimendionar a logo da clinica*/  
+}
+
+.navbar {
+    background-color:#fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.nav .nav-link.active {
+    background-color:  #61a5bc;
+    color: black;
+}
+
+.nav .nav-link {
+    color: black;
+}
+
+/** Menu Hambuerguer **/
+.navbar-toggler {
+    background-color: #fff;
+}
+
+/**Para centralizar o texto caption no carousel **/
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-96%, -70%);
+    text-align: justify;
+}
+
+.tex-capitalize {
+    font-size: 47px;
+}
+
+.caption-text {
+    font-size: 25px;
+}
+
+.carousel-caption .btn {
+    border-color: #fff;
+    color: #fff;
+    transition: 0.6s;
+    font-size: 18px;
+}
+.carousel-caption .btn:hover {
+    background-color: transparent;
+    border-color: #65DAF9;
+    color: black;
+}
+
+/* Nossos Serviços */
+#nossos-servicos,
+#nosso-team,
+#casos-clinicos {
+    background-color: #f8f9fa;
+}
+/* Aumentar o tamanho dos ícones */
+#nossos-servicos .fa-solid,
+#nosso-team .fa-solid {
+    font-size: 50px; 
+}
+
+#nossos-servicos .section-text,
+#nosso-team .section-text,
+#casos-clinicos .section-text {
+    font-family: 'Courgette', cursive;
+    font-size: 24px;
+}
+
+#nossos-servicos .section-title,
+#nosso-team .section-title,
+#casos-clinicos .section-title,
+#contato .section-title {
+    font-size: 38px;
+    color: #61A5BD;
+    font-family: 'Courgette', cursive;
+}
+
+#nossos-servicos .btn {
+    border-color: black;
+    color: black;
+    transition: 0.6s;
+}
+
+#nossos-servicos .btn:hover {
+    background-color: transparent;
+    border-color: #65DAF9;
+    color: #65DAF9;
+}
+
+/** Publicidade **/
+.publididade-mas{
+    background-color: #61A5BD;
+    color: black;
+}
+
+/**Diferencial **/
+#diferencial .section-title {
+    color: #61A5BD;
+}
+
+#diferencial .embed-responsive{
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+}
+
+#diferencial .section-text{
+    font-size: 19px;
+}
+
+#diferencial .list-unstyled i,
+.footer .list-unstyled i {
+    color:  #61A5BD;
+}
+
+/** Nosso Team **/
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    pointer-events: none; 
+}
+
+#mapa .mapa {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+}
+
+/*** CARDS DIFERENTES **/
+.card {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.img1 {
+    height: 150px;  
+    /**background-color:#0c5c51;  **/
+}
+
+.img2 {
+    z-index: 1;
+    width: 100px;
+    height: 150px;
+    border: 7px solid #fff;
+    margin-top: -80px;
+}
+.card:hover .img2 img{
+    border-color: #65DAF9;
+    transition: .7s;
+}
+
+.card:hover .img2 {
+    border-color: #65DAF9;
+    transition: .7s;
+}
+
+.main-text h2 {
+    margin: 0 0 20px;
+}
+
+.main-text p {
+    font-size: 16px;
+    padding: 0 35px;
+}
+
+.socials {
+    padding-bottom: 20px;
+}
+.socials i {
+    color: darkcyan;
+    padding: 0 10px; 
+}
+
+.socials i:hover{
+    color: #65DAF9;
+}
+
+/** Casos Clinicos **/
+#casos-clinicos .custom-image2 {
+    max-width: 600px;
+    max-height: 350px; 
+    border-radius: 50%;
+}
+
+#nosso-team .img-2{
+    width: 200px;
+}
+
+/** fale connoco **/
+#contato i {
+    font-size: 25px;
+}
+
+#contato p {
+    font-size: 18px;
+}
+
+#contato .text-colored {
+    color:  #61A5BD;
+}
+
+#contato .form-call {
+    background-color: #f8f9fa;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+#contato .btn {
+    background-color: #61A5BD;
+    color: black;
+    transition: 0.6s;
+}
+
+#contato .btn:hover {
+    background-color: #65DAF9;
+}
+
+/** FOOTER **/
+.footer {
+    background-color: #61A5BD;
+}
+
+.footer ul i {
+    text-decoration: none;
+    text-decoration: double;
+    font-size: 20px;
+
+}
+.footer .section-title {
+    color: black;
+    
+}
+
+.footer .section-title .nav-item a:hover{
+    color: #65DAF9;
+}
+
+.footer  ul li a:hover {
+    color: #0c5c51;
+    margin-bottom: -3px;
+}
+
+.footer  ul li a i {
+    color: #0c5c51;
+}
+
+.footer-copyright {
+    background-color:  #0c5c51;
+    color: #fff;
+}
+
+.footer-copyright p {
+    font-size: 14px;
+}
+
+@media (min-width: 576px) and (max-width: 766px) {
+    .carousel-caption .btn {
+        font-size: 7px;
+    }
+
+    .container img{
+        width: 190px;  /*dimendionar a logo da clinica*/  
+    }
+
+    #sobre-nos .tex-capitalize {
+        font-size: 18px;
+    }
+
+    #sobre-nos .caption-text {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-100%, -98%);
+    }
+}
+
+
+@media (min-width: 767px) and (max-width: 1023px) {
+    .carousel-caption .btn {
+        font-size: 10px;
+    }
+
+    #sobre-nos .tex-capitalize {
+        font-size: 24px;
+    }
+
+    #sobre-nos .caption-text {
+        font-size: 16px;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-96%, -98%);
+    }
+
+    #diferencial #embed-responsive {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+    #sobre-nos .tex-capitalize {
+        font-size: 27px;
+    }
+
+    #sobre-nos .caption-text {
+        font-size: 21px;
+        text-align: left;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-105%, -78%);
+    }
+}
